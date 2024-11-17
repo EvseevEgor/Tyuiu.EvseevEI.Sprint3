@@ -7,7 +7,6 @@ namespace Tyuiu.EvseevEI.Sprint3.Task0.V24.Lib
         {
             double product = 1.0;
 
-            // Цикл для вычисления произведения от startValue до stopValue
             for (int i = startValue; i <= stopValue; i++)
             {
                 double term = Math.Pow(3.0 / (i + Math.Pow(value, -i)), 2);
