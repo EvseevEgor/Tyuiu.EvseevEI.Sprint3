@@ -1,5 +1,5 @@
-﻿using Tyuiu.EvseevEi.Sprint6.Task6.V29.Lib;
-namespace Tyuiu.EvseevEi.Sprint6.Task6.V29
+﻿using Tyuiu.EvseevEI.Sprint6.Task6.V29.Lib;
+namespace Tyuiu.EvseevEI.Sprint6.Task6.V29
 {
     internal class Program
     {
@@ -7,14 +7,14 @@ namespace Tyuiu.EvseevEi.Sprint6.Task6.V29
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #3 | Выполнил: Евсеев Е.И | ИИПБ-24-2";
+            Console.Title = "Спринт #3 | Выполнил: Сафонов Р.В | АСОиУб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
-            Console.WriteLine("* Выполнил: Евсеев Егор Игоревич | ИИПБ 24-2                       *");
+            Console.WriteLine("* Выполнил: Сафонов Руслан Васильевич | АСОиУб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Напишите программу, которая ищет среди целых чисел,                     *");
@@ -36,3 +36,4 @@ namespace Tyuiu.EvseevEi.Sprint6.Task6.V29
         }
     }
 }
+
