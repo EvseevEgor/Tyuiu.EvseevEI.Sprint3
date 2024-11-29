@@ -13,7 +13,7 @@ namespace Tyuiu.EvseevEI.Sprint3.Task1.V4.Lib
                 i++;
             }
 
-            return Math.Round(sumSeries, 3);
+            return Math.Round(sumSeries, 0);
         }
     }
 }
