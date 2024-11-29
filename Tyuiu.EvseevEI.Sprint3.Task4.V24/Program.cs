@@ -9,7 +9,7 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24
             Console.Title = "Спринт #3 | Выполнил: Евсеев Е.И | ИИПб 24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                                ");
-            Console.WriteLine("* Тема: Использование операторов continue и break в цкилах                 ");
+            Console.WriteLine("* Тема: Использование операторов continue и break в циклах                 ");
             Console.WriteLine("* Задание #4                                                               ");
             Console.WriteLine("* Вариант #14                                                              ");
             Console.WriteLine("* Выполнил: Евсеев Егор Игоревич | ИИПб 24-2                            ");
@@ -33,5 +33,4 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24
             Console.ReadKey();
         }
     }
-    }
-}
+ }
