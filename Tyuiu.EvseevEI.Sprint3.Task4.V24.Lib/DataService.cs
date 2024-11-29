@@ -12,7 +12,7 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24.Lib
                 {
                     continue;
                 }
-                result += (Math.Sin(i)/i)+2;
+                result = (Math.Sin(i)/i)+2;
             }
             return Math.Round(result, 3);
         }
