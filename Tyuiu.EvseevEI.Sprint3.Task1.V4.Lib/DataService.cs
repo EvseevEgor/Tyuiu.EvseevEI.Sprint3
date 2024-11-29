@@ -9,11 +9,11 @@ namespace Tyuiu.EvseevEI.Sprint3.Task1.V4.Lib
             var i = startValue;
             while (i <= stopValue)
             {
-                sumSeries +=Math.Pow((0-1)/i,2);
+                sumSeries +=Math.Pow(1/i,2);
                 i++;
             }
 
-            return Math.Round(sumSeries, 0);
+            return Math.Round(sumSeries, 3);
         }
     }
 }
