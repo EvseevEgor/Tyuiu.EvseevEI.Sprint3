@@ -7,6 +7,8 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24.Test
         [TestMethod]
         public void TestMethod1()
         {
+            var dataService = new DataService();
+            Assert.AreEqual(1, dataService.Calculate(-5, 5));
         }
     }
 }

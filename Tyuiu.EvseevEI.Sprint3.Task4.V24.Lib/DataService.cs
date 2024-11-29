@@ -5,7 +5,16 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            
+            double result = 0;
+            for (int i = startValue; i < stopValue; i++)
+            {
+                if (i == 0)
+                {
+                    break;
+                }
+                result += (Math.Sin(i)/i)+2;
+            }
+            return Math.Round(result, 3);
         }
     }
 }
