@@ -10,7 +10,7 @@ namespace Tyuiu.EvseevEI.Sprint3.Task4.V24.Lib
             {
                 if (i == 0)
                 {
-                    break;
+                    continue;
                 }
                 result *= (Math.Sin(i)/i)+2;
             }
