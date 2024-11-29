@@ -7,7 +7,7 @@ namespace Tyuiu.EvseevEI.Sprint3.Task1.V4.Lib
         {
             double sumSeries = 0;
             var i = startValue;
-            while (i <= stopValue)
+            while (i < stopValue)
             {
                 sumSeries +=Math.Pow(1/i,2);
                 i++;
