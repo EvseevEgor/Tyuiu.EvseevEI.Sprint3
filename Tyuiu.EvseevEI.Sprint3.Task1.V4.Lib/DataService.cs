@@ -5,15 +5,16 @@ namespace Tyuiu.EvseevEI.Sprint3.Task1.V4.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double sumSeries = 0;
-            var i = startValue;
-            while (i < stopValue)
+            double sum = 0;
+            int i = 1;
+           
+            while (i <= 10)
             {
-                sumSeries +=Math.Pow(1/i,2 );
+                sum =sum+ Math.Pow(1.0/i,2 );
                 i++;
             }
 
-            return Math.Round(sumSeries, 3);
+            return Math.Round(sum, 3);
         }
     }
 }
