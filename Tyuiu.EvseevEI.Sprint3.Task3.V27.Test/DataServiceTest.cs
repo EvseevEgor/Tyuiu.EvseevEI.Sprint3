@@ -7,8 +7,11 @@ namespace Tyuiu.EvseevEI.Sprint3.Task3.V27.Test
         [TestMethod]
         public void ValidConvertStringToInt()
         {
-            DataService service = new DataService();
-            Assert.AreEqual(6, DataService.ConvertStringToInt("kjhgfuu gujut dtuu", 'u'));
+            DataService ds = new DataService();
+            string value = "!bt, g567kid f!";
+            int res = ds.ConvertStringToInt(value);
+            int wait = 567;
+            Assert.AreEqual(res, wait);
         }
     }
 }
